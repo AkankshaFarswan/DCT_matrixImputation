@@ -9,7 +9,6 @@ X_input = data_preprocessing(X_in); %log-transform data if the range is too high
 for itr=1:1:max_iterations % Result is averaged over "max_iterations" iterations
     val_itr = zeros(1,9);
     val_itr2 = zeros(1,9);
-    %Stage-1:Using compressive sensing to recover matrix from incomplete matrix
     for j = 1:1:9     
         obs = j; % Percentage observed [0...1]     
         [Omega] = subsampling_code(X_input, obs);
