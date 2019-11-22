@@ -5,9 +5,9 @@ load data.mat; %load input data
 X_input = data;
 [row,col]=size(X_input);
 %Normalize data if range of values is high
-for j = 2:1:9
+for j = 1:1:9
     % Using compressive sensing to recover matrix from incomplete matrix
-    obs = j/10; % Percentage observed [0...1]
+    obs = j; % Percentage observed [0...1]
     [Omega] = subsampling_code(X_input, obs); % randomly introducing missing values
     X_observed = X_input.*Omega;    
     %Stage 1: using compressive sensing to fill the incomplete matrix
@@ -27,7 +27,7 @@ for j = 2:1:9
     
     %error
     temp1 = norm(X_reconstructed-X_input,'fro');
-    nrmse1(j-1) = temp1/norm(X_input,'fro');
+    nrmse1(j) = temp1/norm(X_input,'fro');
     
     for l=1:col
         xrow2 = X_reconstructed(:,l);
@@ -42,6 +42,6 @@ for j = 2:1:9
         end
     end
     temp2 = norm(X_reconstructed2 - X_input,'fro');
-    nrmse2(j-1) = temp2/norm(X_input,'fro');  
+    nrmse2(j) = temp2/norm(X_input,'fro');  
 end
 
