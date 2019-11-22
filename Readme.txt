@@ -13,5 +13,5 @@
 %% NOTE: please install spgl solver and keep it in your path in matlab for this algorithm to work
 
 Please cite our work if you use our codes for matrix imputation
-1) Farswan, A. and Gupta, A., 2019, May. TV-DCT: Method to Impute Gene Expression Data Using DCT Based Sparsity and Total Variation Denoising. In ICASSP 2019-2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (pp. 1244-1248). IEEE. 
-2) Gehlot, S., Farswan, A., Gupta, A. and Gupta, R., 2019, April. CT-NNBI: Method to Impute Gene Expression Data using DCT Based Sparsity and Nuclear Norm Constraint with Split Bregman Iteration. In 2019 IEEE 16th International Symposium on Biomedical Imaging (ISBI 2019) (pp. 1315-1318). IEEE.
+Farswan, A. and Gupta, A., 2019, May. TV-DCT: Method to Impute Gene Expression Data Using DCT Based Sparsity and Total Variation Denoising. In ICASSP 2019-2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (pp. 1244-1248). IEEE. 
+
