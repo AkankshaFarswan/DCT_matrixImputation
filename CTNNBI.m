@@ -28,7 +28,7 @@ for itr=1:1:max_iterations % Result is averaged over "max_iterations" iterations
             X_reconstructed(:,i) = D'*x_rec;
         end
         
-        %calculating NRMSE after stage 1 after taking antilog of reconstructed
+        %calculating NRMSE after stage 1 after taking antilog of reconstructed matrix
         temp = norm(X_in - data_reverseprocess(X_reconstructed),'fro');  
         val_itr(j) = temp1/norm(X_in,'fro');
         
