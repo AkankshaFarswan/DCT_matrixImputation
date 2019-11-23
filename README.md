@@ -4,7 +4,7 @@ Matrix imputation in gene expression data using DCT based sparsity
 
 Matlab codes for matrix imputation-
 1) DCT_Stage1.m - Code for imputing missing values using only Stage-1 i.e DCT based sparsity
-2) CTNNBI.m    - Code Code for introducing missing values randomly and then imputing missing values using DCT sparsity in                      Stage-1 and Nuclear Norm minimization based denoising in Stage-2 and finally calculating NRMSE
+2) CTNNBI.m    - Code for introducing missing values randomly and then imputing missing values using DCT sparsity in                      Stage-1 and Nuclear Norm minimization based denoising in Stage-2 and finally calculating NRMSE
 3) TV_DCTcode2.m - Code for introducing missing values randomly and then imputing missing values using DCT based sparsity in                     Stage-1 and TV denosing in Stage-2 and finally calculating NRMSE
 4) TV_DCTcode1.m - Code for imputing missing values in incomplete matrix using TV-DCT algorithm                 
 
