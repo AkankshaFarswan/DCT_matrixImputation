@@ -12,8 +12,10 @@ Matlab codes for matrix imputation-
 
 Please cite our work if you use our codes for matrix imputation
 For TV-DCT method cite the following-
+
 -> Farswan, A. and Gupta, A., 2019, May. TV-DCT: Method to Impute Gene Expression Data Using DCT Based Sparsity and Total Variation Denoising. In ICASSP 2019-2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (pp. 1244-1248). IEEE. 
 
 For CT-NNBI method, cite the following-
+
 -> Gehlot S, Farswan A, Gupta A, Gupta R. CT-NNBI: Method to Impute Gene Expression Data using DCT Based Sparsity and Nuclear Norm Constraint with Split Bregman Iteration. In2019 IEEE 16th International Symposium on Biomedical Imaging (ISBI 2019) 2019 Apr 8 (pp. 1315-1318). IEEE.
 
